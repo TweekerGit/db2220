@@ -4,10 +4,16 @@ import mongoose, { ConnectOptions } from "mongoose";
 import dotenv from "dotenv";
 import { HandleErrors } from "./middlewares/errorHandlerMiddleware";
 import { TeaRouter } from "./routes/teaRoutes";
+import cors from 'cors';
+
 
 const app = express();
 
+
 app.use(json());
+app.use(cors({
+  origin: '*'
+}))
 app.use(TeaRouter);
 
 dotenv.config();

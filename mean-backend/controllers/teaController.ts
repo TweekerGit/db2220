@@ -6,6 +6,7 @@ import { SuccessResult } from "../responses/SuccessResult";
 
 export class TeaController {
   async CreateTea(req: Request, res: Response, next: NextFunction) {
+    console.log(`BODYYYY: `, req.body);
     if (req?.body) {
       const { body } = req;
 
