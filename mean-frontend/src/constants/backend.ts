@@ -1,3 +1,3 @@
 export class Backend {
-  static baseUrl: string = 'REPLACE ME :)';
+  static baseUrl: string = 'http://localhost:5019/tea';
 }

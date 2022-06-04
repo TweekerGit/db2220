@@ -1,4 +1,5 @@
-Before start, run command: **npm i**
-In constants folder open file **backend.ts**
-Replace baseUrl value with url to **api**
+Before start, open terminal in this folder **(mean-frontend)**
+Run command: **npm i**
+
+To run only this project:
 Start app with: **npm start**
